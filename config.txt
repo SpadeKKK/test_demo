@@ -1,0 +1,44 @@
+classifier/
+  __int__.py
+
+  datasets/
+    __int__.py
+    dataset.py  # access data from folder or network
+
+  extraction/
+    extract.py # data processing
+    savefile.py  # save the files into dataset.
+    outdata.py  # output saved data by categorical features
+
+  model/
+    sample/
+      based_models
+  
+  models/
+    __int__.py
+    oritrain.py  # train data into ML algorithms and save them， and pick the best performance number in each algorithm  
+    valdata.py  # input the testing data
+
+  tests/
+    __int__.py
+
+  notebooks/
+    shap_figure.ipynb # maybe only generate the figure through this way
+
+  tables/
+    __int__.py
+    fetable.py  # make summary table easy to draw figures
+    pertable.py # 6 performance metrics to display and save
+
+
+  plots/
+    __int__.py
+    rocfig.py  # input X_train, y_train, X_test, y_test, output ROC figure
+    accfig.py # *input pertable, output line figure, maybe this function is not useful
+    shapfig.py # try to generate figure by this way
+
+  shapvalue/
+    __int__.py
+    shaptable.py # output shap values for training algorithm
+    shapmeans.py  # input shaptable, output absolute shap means table
+    shaprel.py  # morphological and statistical proportion
