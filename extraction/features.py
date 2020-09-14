@@ -1,7 +1,7 @@
 import numpy as np
 
 # feature categorical have three: s = statistical, m = morphological, sm = statistical & morphological
-def feature(data,fc):
+def diffeature(data,fc):
     # Select only features of sample in sample_id_list
     sample_id_list = data['sample_id']
     selected_sample_index = [list(data['sample_id']).index(i) for i in sample_id_list]
