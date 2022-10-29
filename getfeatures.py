@@ -18,7 +18,7 @@ import math
 os.chdir("/Users/duranbao/Desktop/Study_abroad/PhD_projects/ML_update/ML_project/")
 #os.chdir("C:\\Users\\hanyu\\Documents\\Duran\\Pre_AI\\20200313_new_anno\\ML_project") # identify the working directionary
 
-
+# good
 clincal_info_file = f"Total_Italy_train.csv" # change the filename
 
 if clincal_info_file is not None:
